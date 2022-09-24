@@ -1,0 +1,563 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aero Guide</title>
+    <link rel="stylesheet" href="bootstrap.bundle.js">
+    <link rel="stylesheet" href="/css/bootstrap-grid.min.css">
+    <link rel="stylesheet" href="/css/bootstrap-grid.rtl.min.css">
+    <link rel="stylesheet" href="/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/fontawesome/css/all.min.css">
+    <link rel="stylesheet" href="/fontawesome/css/brands.css">
+    <link rel="stylesheet" href="/fontawesome/css/solid.css">
+    <link rel="stylesheet" href="/fontawesome/css">
+    <link rel="stylesheet" href="/css/bootstrap-utilities.min.css">
+    <link rel="stylesheet" href="bootstrap.bundle.min.js">
+    <link rel="stylesheet" href="/css/bootstrap-reboot.min.css">
+    <link rel="stylesheet" href="/css/bootstrap-utilities.css">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="shortcut icon" href="/img/favicon.jpg" type="image/x-icon">
+</head>
+<style>
+    /* main {
+        background-color: whitesmoke;
+    } */
+
+    a:hover {
+        background-color: lightblue;
+        color: black;
+    }
+/* 
+    header:hover {
+        background-color: lightgray;
+    }
+
+    p:hover {
+        background-color: lightgray;
+        border-radius: 2%;
+    } */
+
+    /* h2:hover {
+        background-color: lightgrey;
+    }
+
+    h1:hover {
+        background-color: lightgray;
+
+
+    } */
+</style>
+
+<body>
+
+    <header>
+        <div class="px-3 py-2 text-bg-dark">
+            <div class="container">
+                <div class="d-flex flex-wrap align-items-center justify-content-center justify-content-lg-start">
+                    <a href="/"
+                        class="d-flex align-items-center my-2 my-lg-0 me-lg-auto text-white text-decoration-none">
+
+                        <div class="logo" style="float: left;margin: 0;">
+                            <img src="/img/logo5.jpg" alt="" style="height:55px;border-radius: 50%;">
+                        </div>
+                    </a>
+
+
+                    <ul class="nav col-12 col-lg-auto my-2 justify-content-center my-md-0 text-small">
+
+                        <li>
+                            <a href="index.html" class="nav-link text-white">
+                                <svg class="bi d-block mx-auto mb-1" width="24" height="24">
+                                    <!-- <use xlink:href="#speedometer2" /> -->
+                                    <i class="fa-solid fa-house"></i>
+                                </svg>
+                                Home
+                            </a>
+                        </li>
+                        <li>
+                            <a href="Design.html" class="nav-link text-white">
+
+
+                                <svg class="bi d-block mx-auto mb-1" width="24" height="24">
+                                    <!-- <use xlink:href="#speedometer2" /> -->
+                                    <i class="fa-solid fa-plane"></i>
+                                </svg>
+                                Design
+                            </a>
+                        </li>
+                        <li>
+                            <a href="aircraftspart.html" class="nav-link text-white ">
+                                <svg class="bi d-block mx-auto mb-1" width="24" height="24">
+                                    <!-- <use xlink:href="#table" /> -->
+                                    <i class="fa-solid fa-plane-departure"></i>
+                                </svg>
+                                Aircraft's part
+                            </a>
+                        </li>
+                        <li>
+                            <a href="fighterplanes.html" class="nav-link text-white">
+                                <svg class="bi d-block mx-auto mb-1" width="24" height="24">
+                                    <!-- <use xlink:href="#grid" /> -->
+
+                                    <i class="fa-solid fa-jet-fighter-up"></i>
+                                </svg>
+                                Fighter planes
+                            </a>
+                        </li>
+                        <li>
+                            <a href="contactus.html" class="nav-link text-white">
+                                <svg class="bi d-block mx-auto mb-1" width="24" height="24">
+                                    <!-- <use xlink:href="#people-circle" /> -->
+                                    <i class="fa-solid fa-user"></i>
+                                </svg>
+                                Contact us
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="px-3 py-2 border-bottom mb-3">
+            <div class="container d-flex flex-wrap justify-content-center">
+                <form class="col-12 col-lg-auto mb-2 mb-lg-0 me-lg-auto" role="search">
+                    <input type="search" class="form-control" placeholder="Search..." aria-label="Search">
+                </form>
+
+                <div class="text-end">
+                    <button type="button" class="btn btn-light text-dark me-2">Login</button>
+                    <button type="button" class="btn btn-primary">Sign-up</button>
+                </div>
+            </div>
+        </div>
+    </header>
+    <div class="b-example-divider"></div>
+
+    <script src="../assets/dist/js/bootstrap.bundle.min.js"></script>
+    <style>
+        .bd-placeholder-img {
+            font-size: 1.125rem;
+            text-anchor: middle;
+            -webkit-user-select: none;
+            -moz-user-select: none;
+            user-select: none;
+        }
+
+        @media (min-width: 768px) {
+            .bd-placeholder-img-lg {
+                font-size: 3.5rem;
+            }
+        }
+
+        .b-example-divider {
+            height: 3rem;
+            background-color: rgba(0, 0, 0, .1);
+            border: solid rgba(0, 0, 0, .15);
+            border-width: 1px 0;
+            box-shadow: inset 0 .5em 1.5em rgba(0, 0, 0, .1), inset 0 .125em .5em rgba(0, 0, 0, .15);
+        }
+
+        .b-example-vr {
+            flex-shrink: 0;
+            width: 1.5rem;
+            height: 100vh;
+        }
+
+        .bi {
+            vertical-align: -.125em;
+            fill: currentColor;
+        }
+
+        .nav-scroller {
+            position: relative;
+            z-index: 2;
+            height: 2.75rem;
+            overflow-y: hidden;
+        }
+
+        .nav-scroller .nav {
+            display: flex;
+            flex-wrap: nowrap;
+            padding-bottom: 1rem;
+            margin-top: -1px;
+            overflow-x: auto;
+            text-align: center;
+            white-space: nowrap;
+            -webkit-overflow-scrolling: touch;
+        }
+    </style>
+
+    <script src="../assets/dist/js/bootstrap.bundle.min.js"></script>
+    <style>
+        .bd-placeholder-img {
+            font-size: 1.125rem;
+            text-anchor: middle;
+            -webkit-user-select: none;
+            -moz-user-select: none;
+            user-select: none;
+        }
+
+        @media (min-width: 768px) {
+            .bd-placeholder-img-lg {
+                font-size: 3.5rem;
+            }
+        }
+
+        .b-example-divider {
+            height: 3rem;
+            background-color: rgba(0, 0, 0, .1);
+            border: solid rgba(0, 0, 0, .15);
+            border-width: 1px 0;
+            box-shadow: inset 0 .5em 1.5em rgba(0, 0, 0, .1), inset 0 .125em .5em rgba(0, 0, 0, .15);
+        }
+
+        .b-example-vr {
+            flex-shrink: 0;
+            width: 1.5rem;
+            height: 100vh;
+        }
+
+        .bi {
+            vertical-align: -.125em;
+            fill: currentColor;
+        }
+
+        .nav-scroller {
+            position: relative;
+            z-index: 2;
+            height: 2.75rem;
+            overflow-y: hidden;
+        }
+
+        .nav-scroller .nav {
+            display: flex;
+            flex-wrap: nowrap;
+            padding-bottom: 1rem;
+            margin-top: -1px;
+            overflow-x: auto;
+            text-align: center;
+            white-space: nowrap;
+            -webkit-overflow-scrolling: touch;
+        }
+
+        /* footer css**** */
+        #main7 {
+            width: 100%;
+            height: 250px;
+            background-color: lightgrey;
+            display: flex;
+        }
+
+        #Div17 {
+            width: 100%;
+            height: 250px;
+            display: flex;
+            justify-content: space-between;
+            margin-top: 15px;
+        }
+
+        .div17 {
+            width: 15%;
+            height: 150px;
+            padding: 10px;
+            /*border: 5px solid silver;*/
+        }
+
+        .div17 img {
+            width: 40%;
+            height: 40px;
+        }
+
+        /* footer css end  */
+    </style>
+    <main>
+
+
+
+        <div class="container marketing">
+            <!-- body start ********** -->
+            <section>
+                <!-- Header -->
+                <header class="w3-container w3-center"
+                    style="padding:128px 16px; background-image: url('https://i.pinimg.com/564x/e1/f0/d4/e1f0d4cbf9b799cb857511adf4bedc4a.jpg'); background-repeat: no-repeat;background-attachment: fixed; background-size: 100% 100%;">
+                    <h1 class="w3-margin w3-jumbo" style="font-family: 'Times New Roman', Times, serif;">WING</h1>
+                    <pre>
+
+            </pre>
+                </header>
+
+                <!-- First Grid -->
+                <div class="w3-row-padding w3-padding-64 w3-container">
+                    <div class="w3-content">
+                        <div class="w3-twothird">
+                            <h1>WING</h1>
+                            <p class="w3-text-grey">A wing is a type of fin that produces lift while moving through air
+                                or some other fluid. Accordingly, wings have streamlined cross sectional that are
+                                subject to aerodynamics forces and act as air foils. A wing's aerodynamics efficiency is
+                                expressed as its lift to drag ratio. The lift a wing generates at a given speed and
+                                angle of attack can be one to two orders of magnitude greater than the total drag on the
+                                wing. A high lift-to-drag ratio requires a significantly smaller thrust to propel the
+                                wings through the air at sufficient lift.
+
+                                Lifting structures used in water include various foils, such
+                                as hydrofoils. Hydrodynamics is the governing science, rather than aerodynamics.
+                                Applications of underwater foils occur in hydroplanes, sailboats and submarines.
+
+                            </p>
+                        </div>
+
+                        <div class="w3-third w3-center">
+                            <img src="https://i.pinimg.com/564x/68/67/7f/68677fed7838d05af1b6fbeed6fa6cc3.jpg"
+                                alt="wing" width="100%" height="100%">
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Second Grid -->
+                <div class="w3-row-padding w3-light-grey w3-padding-64 w3-container">
+                    <div class="w3-content">
+
+                        <div class="w3-twothird">
+                            <h1>PARTS OF WINGS</h1>
+                            <p class="w3-text-grey">
+                            <dl>
+                                <dt>⦁ Ailerons </dt>
+                                <dd>⦁ Ailerons are one of the three primary control surfaces that control a plane (along
+                                    with the Elevator and Rudder) and are located on the trailing edge of the wing to
+                                    help control the roll of a plane. When a pilot turns to the left in the cockpit, the
+                                    left aileron goes up, reducing lift on that side, and the right aileron goes down,
+                                    increasing lift causing that side to rise. This causes the plane to roll to the left
+                                    and begin a turn.
+                                </dd>
+                                <dt>⦁ Flaps </dt>
+                                <dd>⦁ Flaps, like ailerons, are located on the trailing edge of the wing. Unlike
+                                    ailerons, the flaps move symmetrically on each side and create more lift and drag.
+                                    Flaps are typically used during take-off and landing, when aircraft speeds are
+                                    lower, to create additional lift and reduce stall speeds.
+                                </dd>
+                                <dt>⦁ Winglet </dt>
+                                <dd>⦁ On an airliner, the tip of the wing is bent up. This is known as a winglet.
+                                    Winglets were created to reduce induced drag. </dd>
+                                <dt>⦁ Slats </dt>
+                                <dd>⦁ Slats are similar to flaps, only located at the front of the wing (a leading-edge
+                                    device) and change a wing’s shape temporarily to increase lift. </dd>
+                                <dt>⦁ Spoilers </dt>
+                                <dd>⦁ Spoilers are used to help the aircraft descend and reduces the lift component of
+                                    an air foil. This allows the plane to descend and lose altitude without gaining
+                                    airspeed. </dd>
+                            </dl>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- third Grid -->
+                <div class="w3-row-padding w3-padding-64 w3-container">
+                    <div class="w3-content">
+                        <div class="w3-twothird">
+                            <h1>MATERIALS USED IN WINGS MATERIALS USED IN WINGS
+                            </h1>
+                            <p>
+                                Most airplanes are made out of titanium, steel, aluminum, wood and many other materials,
+                                including composites. Composites can contain a variety of different materials, usually
+                                including polymers, carbon fiber, and more. These metals are stiff and strong as well as
+                                resistant to corrosion and light in weight.
+                                Nowadays, most aircraft wings are constructed from aerospace-grade aluminium and, more
+                                recently, composite materials such as carbon fibre. Both these materials have an
+                                extremely high tensile strength, ensuring that wings can sustain far more than any
+                                conditions seen during any flight. Composite materials are lighter, which is why most
+                                widebody aircraft, such as the 787 with its curved wings and A350, now favour more
+                                composites over aluminium.
+
+                            </p>
+                        </div>
+
+                        <div class="w3-third w3-center">
+
+                        </div>
+                    </div>
+                </div>
+                <!-- fourth Grid -->
+                <div class="w3-row-padding w3-light-grey w3-padding-64 w3-container">
+                    <div class="w3-content">
+                        <div class="w3-third w3-center">
+                            <img src="/img/rec.jpeg" width="100%" height="100%">
+                        </div>
+
+                        <div class="w3-twothird">
+                            <h1>TYPES OF WINGS </h1>
+                            <h5 class="w3-padding-32">There are five different shapes used for aircraft wings including
+                                rectangular, tapered straight, elliptical, swept, and delta. </h5>
+
+                            <p class="w3-text-grey">
+                            <h3>⦁ Rectangular Wing </h3>
+                            The rectangular wing is the simplest to manufacture. It is a non-tapered, straight wing that
+                            is mostly used in small aircrafts. This wing extends out from the aircraft’s fuselage at
+                            right angles (approximately).
+                            A good example of an aircraft where a rectangular wing was used is the Piper PA 38.
+                            One major disadvantage of a rectangular wing is that it isn’t aerodynamically efficient.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Fifth Grid -->
+                <div class="w3-row-padding w3-padding-64 w3-container">
+                    <div class="w3-content">
+                        <div class="w3-twothird">
+                            <h3>⦁ Tapered Straight Wing </h3>
+                            <p class="w3-text-grey">The thin, unswept, short-span, low-aspect-ratio trapezoidal
+                                configuration offers some advantages for high-speed flight and has been used on a small
+                                number of aircraft types. In this wing configuration, the leading-edge sweeps back and
+                                the trailing edge sweeps forward. It can provide low aerodynamic drag at high speeds,
+                                while maintaining high strength and stiffness, and was used successfully during the
+                                early days of supersonic aircraft.
+                            </p>
+                        </div>
+
+                        <div class="w3-third w3-center">
+                            <img src="/img/teperd.jpeg" width="100%" height="100%">
+                        </div>
+                    </div>
+                </div>
+
+                <!-- sixth Grid -->
+                <div class="w3-row-padding w3-light-grey w3-padding-64 w3-container">
+                    <div class="w3-content">
+                        <div class="w3-third w3-center">
+                            <img src="/img/ellipt.jpeg" width="100%" height="100%">
+                        </div>
+
+                        <div class="w3-twothird">
+                            <h3>⦁ Elliptical Wing </h3>
+                            <p class="w3-text-grey">An elliptical wing is a wing platform whose leading and trailing
+                                edges each approximate two segments of an ellipse. It is not to be confused with annular
+                                wings, which may be elliptically shaped. Relatively few aircraft have adopted the
+                                elliptical wing, an even-smaller number of which attained mass production; the majority
+                                of aircraft that did use this feature were introduced during the 1930s and 1940s.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- seventh Grid -->
+                <div class="w3-row-padding w3-padding-64 w3-container">
+                    <div class="w3-content">
+                        <div class="w3-twothird">
+                            <h3>⦁ Swept Wing </h3>
+                            <p class="w3-text-grey">A swept wing is a wing that angles either backward or occasionally
+                                forward from its root rather than in a straight sideways direction. Swept wings have
+                                been flown since the pioneer days of aviation. There are two types:
+                            <ul>
+                                <li>Front Swept</li>
+                                <li>Back Swept</li>
+                            </ul>
+                            </p>
+                        </div>
+
+                        <div class="w3-third w3-center" style="border-radius: 10%; ">
+                            <img src="/img/cl.jpeg" width="100%" height="100%">
+                        </div>
+                    </div>
+                </div>
+
+                <!-- eight Grid -->
+                <div class="w3-row-padding w3-light-grey w3-padding-64 w3-container">
+                    <div class="w3-content">
+                        <div class="w3-third w3-center" style="height: 400px;">
+                            <img src="/img/delta.jpg" width="100%" height="75%">
+                        </div>
+
+                        <div class="w3-twothird">
+                            <h3>⦁ Delta Wing</h3>
+                            <p class="w3-text-grey">A delta wing is a wing shaped in the form of a triangle. It is named
+                                for its similarity in shape to the Greek uppercase letter delta (Δ). Having high
+                                manoeuvrability and speed are good characteristics for commercial airliners. But, most
+                                of the commercial airliners do not use delta wings. The large root chord also provides
+                                it with a large surface area which helps to bring the minimum speed of the aircraft
+                                down. With sufficient leading edge sweep, a delta wing produces vortex lift, so flow
+                                separation can be turned into a means of increasing lift.
+                                Advantage: Delta wing aircraft do not require a horizontal tail.
+                                Disadvantages: Higher viscous drag due to the large wing area. High induced drag at
+                                subsonic conditions due to low aspect ratio.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+
+
+                <script>
+                    // Used to toggle the menu on small screens when clicking on the menu button
+                    function myFunction() {
+                        var x = document.getElementById("navDemo");
+                        if (x.className.indexOf("w3-show") == -1) {
+                            x.className += " w3-show";
+                        } else {
+                            x.className = x.className.replace(" w3-show", "");
+                        }
+                    }
+                </script>
+
+            </section>
+            <!-- end body  -->
+
+            <!-- footer srat -->
+            <div id="main7">
+                <div id="Div17">
+                    <div class="div17">
+                        <img src="/img/favicon.jpg" alt="" style="border-radius: 50%;"> <br> <br>
+                        Mon - Sat 9:30 - 18:30 <br> <br>
+                        [251]25634586
+
+                    </div>
+                    <div class="div17">
+                        <h4><u>Wh</u>at we do</h4> <br>
+                        Aircraft information <br>
+                        Sustainability <br>
+                        Performance <br>
+                        Customer Insights <br>
+                        Organization <br>
+                        Advanced Analytics <br>
+                    </div>
+                    <div class="div17">
+                        <h4><u>Qu</u>ick Links</h4> <br>
+                        Seminar for improve your <br>
+                        business <br>
+                        profit & loss <br>
+                        March 21, 2018 <br>
+                    </div>
+                    <div class="div17">
+                        <h4><u>Co</u>ntact Us</h4> <br>
+                        22/121 Apple Street, Anna <br>
+                        Nagar, 10012, Chennai <br>
+                        <br>
+                        Phone: +123-456-7890 <br>
+                    </div>
+                    <div class="div17">
+                        <h4><u>Fol</u>llow Us</h4> <br>
+                        <div class="brand" style="font-size: 35px;">
+                            <a href="https://www.instagram.com/"><i class="fa-brands fa-instagram"></i></a>
+                            <a href="https://twitter.com/i/flow/login"> <i class="fa-brands fa-twitter"></i></a>
+                            <a
+                                href="https://in.linkedin.com/?src=go-pa&trk=sem-ga_campid=14650114791_asid=127961666580_crid=601257986854_kw=linkedin_d=c_tid=kwd-285981853_n=g_mt=p_geo=1007761_slid=&mcid=6844056167778418688&cid=&gclid=Cj0KCQjwsrWZBhC4ARIsAGGUJup8_m6th4h0YCYvERnxk_acB8P_p4cXn366NH3Ord93ZQhLJgErXbEaAgD7EALw_wcB&gclsrc=aw.ds"><i
+                                    class="fa-brands fa-linkedin"></i></a>
+                            <a href="https://www.facebook.com/"><i class="fa-brands fa-facebook"></i></a>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+
+
+
+</body>
+
+</html>

@@ -1,0 +1,568 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aero Guide</title>
+    <link rel="stylesheet" href="bootstrap.bundle.js">
+    <link rel="stylesheet" href="/css/bootstrap-grid.min.css">
+    <link rel="stylesheet" href="/css/bootstrap-grid.rtl.min.css">
+    <link rel="stylesheet" href="/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/fontawesome/css/all.min.css">
+    <link rel="stylesheet" href="/fontawesome/css/brands.css">
+    <link rel="stylesheet" href="/fontawesome/css/solid.css">
+    <link rel="stylesheet" href="/fontawesome/css">
+    <link rel="stylesheet" href="/css/bootstrap-utilities.min.css">
+    <link rel="stylesheet" href="bootstrap.bundle.min.js">
+    <link rel="stylesheet" href="/css/bootstrap-reboot.min.css">
+    <link rel="stylesheet" href="/css/bootstrap-utilities.css">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="shortcut icon" href="/img/favicon.jpg" type="image/x-icon">
+</head>
+<style>
+    /* main {
+        background-color: whitesmoke;
+    } */
+
+    a:hover {
+        background-color: lightblue;
+        color: black;
+    }
+/* 
+    header:hover {
+        background-color: lightgray;
+    }
+
+    p:hover {
+        background-color: lightgray;
+        border-radius: 2%;
+    } */
+
+    /* h2:hover {
+        background-color: lightgrey;
+    }
+
+    h1:hover {
+        background-color: lightgray;
+
+
+    } */
+</style>
+
+<body>
+
+    <header>
+        <div class="px-3 py-2 text-bg-dark">
+            <div class="container">
+                <div class="d-flex flex-wrap align-items-center justify-content-center justify-content-lg-start">
+                    <a href="/"
+                        class="d-flex align-items-center my-2 my-lg-0 me-lg-auto text-white text-decoration-none">
+
+                        <div class="logo" style="float: left;margin: 0;">
+                            <img src="/img/logo5.jpg" alt="" style="height:55px;border-radius: 50%;">
+                        </div>
+                    </a>
+
+
+                    <ul class="nav col-12 col-lg-auto my-2 justify-content-center my-md-0 text-small">
+
+                        <li>
+                            <a href="index.html" class="nav-link text-white">
+                                <svg class="bi d-block mx-auto mb-1" width="24" height="24">
+                                    <!-- <use xlink:href="#speedometer2" /> -->
+                                    <i class="fa-solid fa-house"></i>
+                                </svg>
+                                Home
+                            </a>
+                        </li>
+                        <li>
+                            <a href="Design.html" class="nav-link text-white">
+
+
+                                <svg class="bi d-block mx-auto mb-1" width="24" height="24">
+                                    <!-- <use xlink:href="#speedometer2" /> -->
+                                    <i class="fa-solid fa-plane"></i>
+                                </svg>
+                                Design
+                            </a>
+                        </li>
+                        <li>
+                            <a href="aircraftspart.html" class="nav-link text-white ">
+                                <svg class="bi d-block mx-auto mb-1" width="24" height="24">
+                                    <!-- <use xlink:href="#table" /> -->
+                                    <i class="fa-solid fa-plane-departure"></i>
+                                </svg>
+                                Aircraft's part
+                            </a>
+                        </li>
+                        <li>
+                            <a href="fighterplanes.html" class="nav-link text-white">
+                                <svg class="bi d-block mx-auto mb-1" width="24" height="24">
+                                    <!-- <use xlink:href="#grid" /> -->
+
+                                    <i class="fa-solid fa-jet-fighter-up"></i>
+                                </svg>
+                                Fighter planes
+                            </a>
+                        </li>
+                        <li>
+                            <a href="contactus.html" class="nav-link text-white">
+                                <svg class="bi d-block mx-auto mb-1" width="24" height="24">
+                                    <!-- <use xlink:href="#people-circle" /> -->
+                                    <i class="fa-solid fa-user"></i>
+                                </svg>
+                                Contact us
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="px-3 py-2 border-bottom mb-3">
+            <div class="container d-flex flex-wrap justify-content-center">
+                <form class="col-12 col-lg-auto mb-2 mb-lg-0 me-lg-auto" role="search">
+                    <input type="search" class="form-control" placeholder="Search..." aria-label="Search">
+                </form>
+
+                <div class="text-end">
+                    <button type="button" class="btn btn-light text-dark me-2">Login</button>
+                    <button type="button" class="btn btn-primary">Sign-up</button>
+                </div>
+            </div>
+        </div>
+    </header>
+    <div class="b-example-divider"></div>
+
+    <script src="../assets/dist/js/bootstrap.bundle.min.js"></script>
+    <style>
+        .bd-placeholder-img {
+            font-size: 1.125rem;
+            text-anchor: middle;
+            -webkit-user-select: none;
+            -moz-user-select: none;
+            user-select: none;
+        }
+
+        @media (min-width: 768px) {
+            .bd-placeholder-img-lg {
+                font-size: 3.5rem;
+            }
+        }
+
+        .b-example-divider {
+            height: 3rem;
+            background-color: rgba(0, 0, 0, .1);
+            border: solid rgba(0, 0, 0, .15);
+            border-width: 1px 0;
+            box-shadow: inset 0 .5em 1.5em rgba(0, 0, 0, .1), inset 0 .125em .5em rgba(0, 0, 0, .15);
+        }
+
+        .b-example-vr {
+            flex-shrink: 0;
+            width: 1.5rem;
+            height: 100vh;
+        }
+
+        .bi {
+            vertical-align: -.125em;
+            fill: currentColor;
+        }
+
+        .nav-scroller {
+            position: relative;
+            z-index: 2;
+            height: 2.75rem;
+            overflow-y: hidden;
+        }
+
+        .nav-scroller .nav {
+            display: flex;
+            flex-wrap: nowrap;
+            padding-bottom: 1rem;
+            margin-top: -1px;
+            overflow-x: auto;
+            text-align: center;
+            white-space: nowrap;
+            -webkit-overflow-scrolling: touch;
+        }
+    </style>
+
+    <script src="../assets/dist/js/bootstrap.bundle.min.js"></script>
+    <style>
+        .bd-placeholder-img {
+            font-size: 1.125rem;
+            text-anchor: middle;
+            -webkit-user-select: none;
+            -moz-user-select: none;
+            user-select: none;
+        }
+
+        @media (min-width: 768px) {
+            .bd-placeholder-img-lg {
+                font-size: 3.5rem;
+            }
+        }
+
+        .b-example-divider {
+            height: 3rem;
+            background-color: rgba(0, 0, 0, .1);
+            border: solid rgba(0, 0, 0, .15);
+            border-width: 1px 0;
+            box-shadow: inset 0 .5em 1.5em rgba(0, 0, 0, .1), inset 0 .125em .5em rgba(0, 0, 0, .15);
+        }
+
+        .b-example-vr {
+            flex-shrink: 0;
+            width: 1.5rem;
+            height: 100vh;
+        }
+
+        .bi {
+            vertical-align: -.125em;
+            fill: currentColor;
+        }
+
+        .nav-scroller {
+            position: relative;
+            z-index: 2;
+            height: 2.75rem;
+            overflow-y: hidden;
+        }
+
+        .nav-scroller .nav {
+            display: flex;
+            flex-wrap: nowrap;
+            padding-bottom: 1rem;
+            margin-top: -1px;
+            overflow-x: auto;
+            text-align: center;
+            white-space: nowrap;
+            -webkit-overflow-scrolling: touch;
+        }
+
+        /* footer css**** */
+        #main7 {
+            width: 100%;
+            height: 250px;
+            background-color: lightgrey;
+            display: flex;
+        }
+
+        #Div17 {
+            width: 100%;
+            height: 250px;
+            display: flex;
+            justify-content: space-between;
+            margin-top: 15px;
+        }
+
+        .div17 {
+            width: 15%;
+            height: 150px;
+            padding: 10px;
+            /*border: 5px solid silver;*/
+        }
+
+        .div17 img {
+            width: 40%;
+            height: 40px;
+        }
+
+        /* footer css end  */
+    </style>
+    <main>
+
+
+
+        <div class="container marketing">
+            <!-- body start ********** -->
+           <section>
+            <header class="w3-container w3-red w3-center" style="padding:128px 16px; background-image: url('https://i.pinimg.com/564x/44/80/a0/4480a0c381ba8925ceab0d10f4df2123.jpg'); background-repeat: no-repeat;background-attachment: fixed; background-size: 100% 100%;">
+                <h1 class="w3-margin w3-jumbo">FIGHTER PLANE</h1>
+              </header>
+              
+              <!-- First Grid -->
+              <div class="w3-row-padding w3-padding-64 w3-container">
+                <div class="w3-content">
+                  <div class="w3-twothird">
+                    <h1>Nr.1 Lockheed Martin / Boeing F-22 Raptor (USA)</h1>
+              
+                    <p class="w3-text-grey">The F-22 Raptor air superiority fighter is almost invisible to radars. This aircraft carries a powerful array of weaponry. It is the most advanced and most expensive production fighter aircraft to date. Many of sensors and avionics of this plane remain classified. This advanced aircraft was adopted in 2003. It was never offered for export customers, even other allies and NATO countries. Currently it is the best fighter aircraft ever built.
+            
+                        Engines of the raptor allow the aircraft to supercruise over long ranges, while thrust-vectoring nozzles, combined with a triplex fly-by-wire flight control system, make it exceptionally maneuverable.
+                     
+                        Requirement for a new fighter was issued in the early 1980s, which would replace the F-15 Eagle. United States designed this aircraft in order to restore a technological edge which the US had enjoyed for many years over Russians and other Western countries. It was somewhat eroded in the mid 1980s when Russians introduced a very capable Su-27 air superiority fighter, which could meet the F-15 Eagle on equal terms, and MiG-29 multi-role fighter.
+                     
+                        The F-22 started life as a straightforward air superiority fighter. However since its introduction this aircraft lacks a formidable air threat from other countries fighters. Later it evolved towards the multi-role fighter, as ground attack capability was added.</p>
+                  </div>
+              
+                  <div class="w3-third w3-center">
+                    <img src="http://www.military-today.com/aircraft/f22_raptor.jpg" width="100%" height="100%">
+                  </div>
+                </div>
+              </div>
+              
+              <!-- Second Grid -->
+              <div class="w3-row-padding w3-light-grey w3-padding-64 w3-container">
+                <div class="w3-content">
+                  <div class="w3-third w3-center">
+                    <img src="http://www.military-today.com/aircraft/f35b.jpg" width="100%" height="100%">
+                  </div>
+              
+                  <div class="w3-twothird">
+                    <h1>Nr.2 Lockheed Martin F-35 (USA)</h1>
+                    
+              
+                    <p class="w3-text-grey">  The F-35, also known as the Lightning II, is a new multi-role fighter. One of its variants, the F-35B achieved initial operational capability with the US Marine Corps in 2015.
+            
+                        The F-35 was developed under a Joint Strike Fighter program, which was intended to replace existing aircraft types with a common fighter. In the near future the F-35 will replace the AV-8B, A-10, F-16 and F/A-18 warplanes in service with the US military. Also it is being exported to a number of countries.
+                     
+                        The F-35 has a configuration similar to that of Lockheed Martin's own F-22 design, however it is slightly smaller and has one engine instead of two. It exploits stealth technology, which reduces its radar cross-section and makes it harder to detect.
+                     
+                        This multi-role fighter can perform on air defense missions, close air support and tactical bombing. It is compatible with the latest air-to-air and air-to-ground missiles.
+                     
+                        This aircraft is proposed in three main variants, including the F-35A conventional take-off and landing aircraft, F-35B short take-off and vertical landing aircraft, and F-35C carrier-based aircraft. These variants share a number of their parts in order to keep development, production and servicing costs low. This aircraft uses the most powerful fighter engine ever developed.
+                     
+                        An Israeli version of the F-35, the F-35I, was used against targets in Syria. These stealthy fighters attacked targets that were close to Russia's military bases in Syria. Furthermore Russia's most capable air defense systems, including the S-300 and S-400 could not destroy any of the Israeli F-35s.</p>
+                  </div>
+                </div>
+              </div>
+              <!-- 3 Grid -->
+            <div class="w3-row-padding w3-padding-64 w3-container">
+                <div class="w3-content">
+                  <div class="w3-twothird">
+                    <h1>Nr.3 Sukhoi Su-57 (Russia)</h1>
+                    <!-- <h5 class="w3-padding-32">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</h5> -->
+              
+                    <p class="w3-text-grey">The Su-57 is a new Russian fighter aircraft. It started life of the PAK FA (or Future Frontline Aircraft System). In 2017 this aircraft received a regular Su- designation. This new stealthy aircraft was designed intended to replace ageing MiG-29 and Su-27 fighters. It can be seen as a Russian answer to the US F-22 Raptor. Development of this aircraft commenced in 2001. A prototype was revealed and made its first flight in 2010. It was planned that in 2018 a first batch of 12 pre-production fighters will be delivered to the Russian Air Force. In fact in 2018 a couple of pre-production Su-57 fighters were deployed in Syria. Full-scale production was planned to begin in 2019. Though in 2019 there was a first known crash of the Su-57. This new stealth fighter crashed during a test flight after the control systems have failed. This could become a setback into mass production of this Russian stealthy fighter. In 2022 it was announced that only 2 Su-57 fighters to the Russian Air Force during the year. Russian Air Force has a requirement for up to 150-200 of these new multi-role fighters. Deliveries were planned to be completed by 2028, though it is unclear if the Russians will compete this goal on time due to sanctions imposed on Russia.
+            
+                        Originally it was thought that the Su-57 is a stealthy air superiority fighter. However it turned out that this aircraft has a secondary ground attack capability and can engage surface targets.
+                     
+                        Despite being referred as a fifth-generation fighter, there are some serious doubts about it, as some US Military officials referred the Sukhoi PAK FA only as advanced fourth-generation fighter. Russia still lags behind in the development, acquisition and employment of some of the latest technologies. Though the Sukhoi Su-57 definitely has reduced radar cross-section and a number of other improvements over the current Su-35 multi-role fighter.
+                     
+                        Two large internal weapon bays are mounted in tandem between the engines. This fighter has 10 internal and 6 external hardpoints for various air-to-air, air-to-surface, anti-radiation missiles and even guided bombs.There are also two sidebays for short-range air-to-air missiles. It is believed that this aircraft will carry up to 7 500 kg of ordnance. That's an enormous amount of weapons.</p>
+                  </div>
+              
+                  <div class="w3-third w3-center">
+                    <img src="http://www.military-today.com/aircraft/f35b.jpg" width="100%" height="100%">
+                  </div>
+                </div>
+              </div>
+              
+              <!-- 4 Grid -->
+              <div class="w3-row-padding w3-light-grey w3-padding-64 w3-container">
+                <div class="w3-content">
+                  <div class="w3-third w3-center">
+                    <img src="http://www.military-today.com/aircraft/j20.jpg" width="100%" height="100%">
+                  </div>
+              
+                  <div class="w3-twothird">
+                    <h1>Nr.4 Chengdu J-20 (China)</h1>
+                    <!-- <h5 class="w3-padding-32">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</h5> -->
+              
+                    <p class="w3-text-grey">The Chengdu J-20 is the new China's stealth fighter. It was designed to compete against fifth-generation fighters, such as the US F-22 Raptor and advanced fourth-generation fighters, such as the Russian Su-57 (previously known as PAK-FA). It is speculated, that development of the J-20 was assisted by the Russian MiG aviation company. Low-rate initial production of this stealthy aircraft commenced in 2015. First operational J-20 stealthy fighters were delivered to Chinese air force in 2016. This stealthy fighter was officially adopted by China's air force in 2017.
+            
+                        During the last decade China has taken a more transparent approach to its military programs. Still though there is little official information on this plane.
+                     
+                        The new J-20 is a medium- and long-range air superiority fighter, which might also have a secondary ground attack capability. The new Chinese warplane is an advanced fourth-generation fighter, rather than a true fifth-generation fighter.
+                     
+                        This Chinese fighter has two large internal weapon bays for long-range air-to-air missiles and two small side-mounted weapon bays for short-range air-to-air missiles. Missiles are stored in these weapon bays in order to reduce the radar cross-section. It also has large fuel tanks for long-range missions. It carries more fuel and weapons than the American F-22 Raptor. Furthermore this aircraft is capable of high speed operations.
+                     
+                      </p>
+                  </div>
+                </div>
+              </div>
+            <!-- 5 Grid -->
+            <div class="w3-row-padding w3-padding-64 w3-container">
+                <div class="w3-content">
+                  <div class="w3-twothird">
+                    <h1>Nr.5 Boeing F/A-18E/F Super Hornet (USA)</h1>
+                    <!-- <h5 class="w3-padding-32">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</h5> -->
+              
+                    <p class="w3-text-grey"> Currently the Super Hornet is the most capable US Navy's multi-role fighter. It is based on the aircraft carriers can attack both air and surface targets. The Super Hornet is also in service with Australia as the main fighter aircraft.
+            
+                        The F/A-18E/F is a larger and more capable derivative of the F/A-18C/D Hornet. The Super Hornet is fitted with new engines. It has additional hardpoints and can carry more missiles. This aircraft has extended range due to larger internal storage of fuel. The Super Hornet also has improved avionics. Some measures were taken to reduce radar cross section of this aircraft.</p>
+                  </div>
+              
+                  <div class="w3-third w3-center">
+                    <img src="http://www.military-today.com/aircraft/fa_18_ef_super_hornet.jpg" width="100%" height="100%">
+                  </div>
+                </div>
+              </div>
+              
+              <!-- 6 Grid -->
+              <div class="w3-row-padding w3-light-grey w3-padding-64 w3-container">
+                <div class="w3-content">
+                  <div class="w3-third w3-center">
+                    <img src="http://www.military-today.com/aircraft/eurofighter_typhoon.jpg" width="100%" height="100%">
+                  </div>
+              
+                  <div class="w3-twothird">
+                    <h1>Nr.6 Eurofighter Typhoon (Germany, Italy, Spain and the United Kingdom)</h1>
+                    <!-- <h5 class="w3-padding-32">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</h5> -->
+              
+                    <p class="w3-text-grey">In 1986 the Eurofighter consortium was formed by Germany, Italy, the UK and, later, Spain, to develop a new multi-role combat aircraft, optimized as a beyond visual range interceptor with a secondary ground-attack capability. This aircraft carries advanced European-designed missiles. it is fitted with a very modern and comprehensive avionics package.
+            
+                        It is claimed that Typhoon is half as combat effective as the American F-22 Raptor. It is an approximate estimate, however it seems that Typhoon is superior to the F-15, French Rafale, evolved Russian Su-27 variants and many other aircraft.
+                    
+                       The Eurofighter Typhoon will form the cornerstone of European air power until well into the 21st century</p>
+                  </div>
+                </div>
+              </div>
+            <!-- 7 Grid -->
+            <div class="w3-row-padding w3-padding-64 w3-container">
+                <div class="w3-content">
+                  <div class="w3-twothird">
+                    <h1>Nr.7 Dassault Rafale (France)</h1>
+                    <!-- <h5 class="w3-padding-32">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</h5> -->
+              
+                    <p class="w3-text-grey">The Rafale is in service both with the French Air Force and Navy. This multi-role fighter features some of the very latest avionics systems. Also some measures were taken to reduce radar cross section of this aircraft. This aircraft is very maneuverable. The Rafale can track 40 targets and fire at four targets simultaneously.
+            
+                        This aircraft can hold its own against the latest versions of the American F-16. The Dassault Rafale will form the cornerstone of French air power until well into the 21st century.</p>
+                  </div>
+              
+                  <div class="w3-third w3-center">
+                    <img src="http://www.military-today.com/aircraft/dassault_rafale.jpg" width="100%" height="100%">
+                  </div>
+                </div>
+              </div>
+              
+              <!-- 8 Grid -->
+              <div class="w3-row-padding w3-light-grey w3-padding-64 w3-container">
+                <div class="w3-content">
+                  <div class="w3-third w3-center">
+                    <img src="http://www.military-today.com/aircraft/su_35.jpg" width="100%" height="100%">
+                  </div>
+              
+                  <div class="w3-twothird">
+                    <h1>Nr.8 Sukhoi Su-35 (Russia)</h1>
+                    <!-- <h5 class="w3-padding-32">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</h5> -->
+              
+                    <p class="w3-text-grey">The Su-35 multi-role fighter is a significantly developed version of the Su-27. It is being offered for export as a replacement for the Su-27 and MiG-29 fighters. In 2012 it has been adopted by the Russian Air Force.
+            
+                        Developers refer the Su-35 as 4++ generation fighter. It is a very fast and highly maneuverable fighter with very long range, high altitude capability and heavy armament. It poses a great threat to Western 4+ generation fighters
+                     
+                        The Su-35 is primarily an air superiority fighter. However it has secondary air-to-ground capability. This aircraft can carry enormous amount of weapons. It has 12 wing and fuselage hardpoints and can carry ordnance with a maximum weight of up to 8 000 kg.
+                     
+                        Its large and powerful engines give it ability to supercruise for a long time. Also its engines allow to reach supersonic speeds without using an afterburner. Engines have a three-dimensional thrust vectoring and make this aircraft very maneuverable.
+                     
+                        However Russia still lags behind in the development, acquisition and employment of some of the latest technologies.
+                     
+                        Recently the new Sukhoi Su-57 (previously known as PAK FA) stealthy multi-role fighter was developed in Russia and reached initial production. First operational aircraft were planned to be delivered to the Russian air force in 2018.</p>
+                  </div>
+                </div>
+              </div>
+            <!-- 9 Grid -->
+            <div class="w3-row-padding w3-padding-64 w3-container">
+                <div class="w3-content">
+                  <div class="w3-twothird">
+                    <h1>Nr.9 McDonnel Douglas F-15 Eagle (USA)</h1>
+                    <!-- <h5 class="w3-padding-32">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</h5> -->
+              
+                    <p class="w3-text-grey">The F-15 Eagle is a purpose-built air superiority fighter designed to penetrate enemy defense. Although now in service for over 30 years, it remains a formidable warplane. This aircraft scored more than 100 air kills and is considered among the most successful Cold War era fighters.
+            
+                        The F-15 is equipped with weaponry and electronics, enabling it to detect, acquire, track and attack enemy aircraft, while operating in enemy-controlled airspace. This fighter carries a wide range of air-to-air missiles and is extremely maneuverable. Also it has strong high-speed maneuverability. Through modifications and upgrades the F-15 has been constantly improved.
+                     
+                        The F-15 Eagle is still in service with the US Air Force and is expected to remain operational at least until 2025. This aircraft has been exported to Israel, Japan and Saudi Arabia</p>
+                  </div>
+              
+                  <div class="w3-third w3-center">
+                    <img src="http://www.military-today.com/aircraft/f15_eagle.jpg" width="100%" height="100%">
+                  </div>
+                </div>
+              </div>
+              
+              <!-- 10 Grid -->
+              <div class="w3-row-padding w3-light-grey w3-padding-64 w3-container">
+                <div class="w3-content">
+                  <div class="w3-third w3-center">
+                    <img src="http://www.military-today.com/aircraft/mig_31bm.jpg" width="100%" height="100%">
+                  </div>
+              
+                  <div class="w3-twothird">
+                    <h1>Nr.10 Mikoyan MiG-31BM (Russia)</h1>
+                    <!-- <h5 class="w3-padding-32">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</h5> -->
+              
+                    <p class="w3-text-grey"> The MiG-31BM is the latest version of the MiG-31 interceptor, which forms the backbone of Russia's air defenses. The upgraded MiG-31BM received a ground attack capability and became a true multi-role fighter. A project to upgrade Russian interceptors to the MiG-31BM standard was launched in 2010. By 2017 a total of 110 aircraft were reportedly upgraded. This upgrade allowed to extend service life of older aircraft for at least another 15 years. It is planned that all operational MiG-31s will be upgraded.
+            
+                        This aircraft is able to undertake long-range interception, precision strike and defense suppression tasks. Both cockpits feature advanced displays allowing the crew to deploy precision-guided munitions.
+                     
+                        This fighter has a high speed, altitude and rate of climb, however it sacrifices maneuverability in order to achieve these capabilities. The MiG-31BM is among the fastest production aircraft. It can reach a maximum speed of up to 3 000 km/h.</p>
+                  </div>
+                </div>
+              </div>
+                    
+            
+              <script>
+                // Used to toggle the menu on small screens when clicking on the menu button
+                function myFunction() {
+                  var x = document.getElementById("navDemo");
+                  if (x.className.indexOf("w3-show") == -1) {
+                    x.className += " w3-show";
+                  } else { 
+                    x.className = x.className.replace(" w3-show", "");
+                  }
+                }
+                </script>
+           </section>
+            <!-- end body  -->
+
+            <!-- footer srat -->
+            <div id="main7">
+                <div id="Div17">
+                    <div class="div17">
+                        <img src="/img/favicon.jpg" alt="" style="border-radius: 50%;"> <br> <br>
+                        Mon - Sat 9:30 - 18:30 <br> <br>
+                        [251]25634586
+
+                    </div>
+                    <div class="div17">
+                        <h4><u>Wh</u>at we do</h4> <br>
+                        Aircraft information <br>
+                        Sustainability <br>
+                        Performance <br>
+                        Customer Insights <br>
+                        Organization <br>
+                        Advanced Analytics <br>
+                    </div>
+                    <div class="div17">
+                        <h4><u>Qu</u>ick Links</h4> <br>
+                        Seminar for improve your <br>
+                        business <br>
+                        profit & loss <br>
+                        March 21, 2018 <br>
+                    </div>
+                    <div class="div17">
+                        <h4><u>Co</u>ntact Us</h4> <br>
+                        22/121 Apple Street, Anna <br>
+                        Nagar, 10012, Chennai <br>
+                        <br>
+                        Phone: +123-456-7890 <br>
+                    </div>
+                    <div class="div17">
+                        <h4><u>Fol</u>llow Us</h4> <br>
+                        <div class="brand" style="font-size: 35px;">
+                            <a href="https://www.instagram.com/"><i class="fa-brands fa-instagram"></i></a>
+                            <a href="https://twitter.com/i/flow/login"> <i class="fa-brands fa-twitter"></i></a>
+                            <a
+                                href="https://in.linkedin.com/?src=go-pa&trk=sem-ga_campid=14650114791_asid=127961666580_crid=601257986854_kw=linkedin_d=c_tid=kwd-285981853_n=g_mt=p_geo=1007761_slid=&mcid=6844056167778418688&cid=&gclid=Cj0KCQjwsrWZBhC4ARIsAGGUJup8_m6th4h0YCYvERnxk_acB8P_p4cXn366NH3Ord93ZQhLJgErXbEaAgD7EALw_wcB&gclsrc=aw.ds"><i
+                                    class="fa-brands fa-linkedin"></i></a>
+                            <a href="https://www.facebook.com/"><i class="fa-brands fa-facebook"></i></a>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+
+
+
+</body>
+
+</html>

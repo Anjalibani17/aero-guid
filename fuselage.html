@@ -1,0 +1,484 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aero Guide</title>
+    <link rel="stylesheet" href="bootstrap.bundle.js">
+    <link rel="stylesheet" href="/css/bootstrap-grid.min.css">
+    <link rel="stylesheet" href="/css/bootstrap-grid.rtl.min.css">
+    <link rel="stylesheet" href="/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/fontawesome/css/all.min.css">
+    <link rel="stylesheet" href="/fontawesome/css/brands.css">
+    <link rel="stylesheet" href="/fontawesome/css/solid.css">
+    <link rel="stylesheet" href="/fontawesome/css">
+    <link rel="stylesheet" href="/css/bootstrap-utilities.min.css">
+    <link rel="stylesheet" href="bootstrap.bundle.min.js">
+    <link rel="stylesheet" href="/css/bootstrap-reboot.min.css">
+    <link rel="stylesheet" href="/css/bootstrap-utilities.css">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="shortcut icon" href="/img/favicon.jpg" type="image/x-icon">
+</head>
+<style>
+    /* main {
+        background-color: whitesmoke;
+    } */
+
+    a:hover {
+        background-color: lightblue;
+        color: black;
+    }
+
+    /* 
+    header:hover {
+        background-color: lightgray;
+    }
+
+    p:hover {
+        background-color: lightgray;
+        border-radius: 2%;
+    } */
+
+    /* h2:hover {
+        background-color: lightgrey;
+    }
+
+    h1:hover {
+        background-color: lightgray;
+
+
+    } */
+</style>
+
+<body>
+
+    <header>
+        <div class="px-3 py-2 text-bg-dark">
+            <div class="container">
+                <div class="d-flex flex-wrap align-items-center justify-content-center justify-content-lg-start">
+                    <a href="/"
+                        class="d-flex align-items-center my-2 my-lg-0 me-lg-auto text-white text-decoration-none">
+
+                        <div class="logo" style="float: left;margin: 0;">
+                            <img src="/img/logo5.jpg" alt="" style="height:55px;border-radius: 50%;">
+                        </div>
+                    </a>
+
+
+                    <ul class="nav col-12 col-lg-auto my-2 justify-content-center my-md-0 text-small">
+
+                        <li>
+                            <a href="index.html" class="nav-link text-white">
+                                <svg class="bi d-block mx-auto mb-1" width="24" height="24">
+                                    <!-- <use xlink:href="#speedometer2" /> -->
+                                    <i class="fa-solid fa-house"></i>
+                                </svg>
+                                Home
+                            </a>
+                        </li>
+                        <li>
+                            <a href="Design.html" class="nav-link text-white">
+
+
+                                <svg class="bi d-block mx-auto mb-1" width="24" height="24">
+                                    <!-- <use xlink:href="#speedometer2" /> -->
+                                    <i class="fa-solid fa-plane"></i>
+                                </svg>
+                                Design
+                            </a>
+                        </li>
+                        <li>
+                            <a href="aircraftspart.html" class="nav-link text-white ">
+                                <svg class="bi d-block mx-auto mb-1" width="24" height="24">
+                                    <!-- <use xlink:href="#table" /> -->
+                                    <i class="fa-solid fa-plane-departure"></i>
+                                </svg>
+                                Aircraft's part
+                            </a>
+                        </li>
+                        <li>
+                            <a href="fighterplanes.html" class="nav-link text-white">
+                                <svg class="bi d-block mx-auto mb-1" width="24" height="24">
+                                    <!-- <use xlink:href="#grid" /> -->
+
+                                    <i class="fa-solid fa-jet-fighter-up"></i>
+                                </svg>
+                                Fighter planes
+                            </a>
+                        </li>
+                        <li>
+                            <a href="contactus.html" class="nav-link text-white">
+                                <svg class="bi d-block mx-auto mb-1" width="24" height="24">
+                                    <!-- <use xlink:href="#people-circle" /> -->
+                                    <i class="fa-solid fa-user"></i>
+                                </svg>
+                                Contact us
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="px-3 py-2 border-bottom mb-3">
+            <div class="container d-flex flex-wrap justify-content-center">
+                <form class="col-12 col-lg-auto mb-2 mb-lg-0 me-lg-auto" role="search">
+                    <input type="search" class="form-control" placeholder="Search..." aria-label="Search">
+                </form>
+
+                <div class="text-end">
+                    <button type="button" class="btn btn-light text-dark me-2">Login</button>
+                    <button type="button" class="btn btn-primary">Sign-up</button>
+                </div>
+            </div>
+        </div>
+    </header>
+    <div class="b-example-divider"></div>
+
+    <script src="../assets/dist/js/bootstrap.bundle.min.js"></script>
+    <style>
+        .bd-placeholder-img {
+            font-size: 1.125rem;
+            text-anchor: middle;
+            -webkit-user-select: none;
+            -moz-user-select: none;
+            user-select: none;
+        }
+
+        @media (min-width: 768px) {
+            .bd-placeholder-img-lg {
+                font-size: 3.5rem;
+            }
+        }
+
+        .b-example-divider {
+            height: 3rem;
+            background-color: rgba(0, 0, 0, .1);
+            border: solid rgba(0, 0, 0, .15);
+            border-width: 1px 0;
+            box-shadow: inset 0 .5em 1.5em rgba(0, 0, 0, .1), inset 0 .125em .5em rgba(0, 0, 0, .15);
+        }
+
+        .b-example-vr {
+            flex-shrink: 0;
+            width: 1.5rem;
+            height: 100vh;
+        }
+
+        .bi {
+            vertical-align: -.125em;
+            fill: currentColor;
+        }
+
+        .nav-scroller {
+            position: relative;
+            z-index: 2;
+            height: 2.75rem;
+            overflow-y: hidden;
+        }
+
+        .nav-scroller .nav {
+            display: flex;
+            flex-wrap: nowrap;
+            padding-bottom: 1rem;
+            margin-top: -1px;
+            overflow-x: auto;
+            text-align: center;
+            white-space: nowrap;
+            -webkit-overflow-scrolling: touch;
+        }
+    </style>
+
+    <script src="../assets/dist/js/bootstrap.bundle.min.js"></script>
+    <style>
+        .bd-placeholder-img {
+            font-size: 1.125rem;
+            text-anchor: middle;
+            -webkit-user-select: none;
+            -moz-user-select: none;
+            user-select: none;
+        }
+
+        @media (min-width: 768px) {
+            .bd-placeholder-img-lg {
+                font-size: 3.5rem;
+            }
+        }
+
+        .b-example-divider {
+            height: 3rem;
+            background-color: rgba(0, 0, 0, .1);
+            border: solid rgba(0, 0, 0, .15);
+            border-width: 1px 0;
+            box-shadow: inset 0 .5em 1.5em rgba(0, 0, 0, .1), inset 0 .125em .5em rgba(0, 0, 0, .15);
+        }
+
+        .b-example-vr {
+            flex-shrink: 0;
+            width: 1.5rem;
+            height: 100vh;
+        }
+
+        .bi {
+            vertical-align: -.125em;
+            fill: currentColor;
+        }
+
+        .nav-scroller {
+            position: relative;
+            z-index: 2;
+            height: 2.75rem;
+            overflow-y: hidden;
+        }
+
+        .nav-scroller .nav {
+            display: flex;
+            flex-wrap: nowrap;
+            padding-bottom: 1rem;
+            margin-top: -1px;
+            overflow-x: auto;
+            text-align: center;
+            white-space: nowrap;
+            -webkit-overflow-scrolling: touch;
+        }
+
+        /* footer css**** */
+        #main7 {
+            width: 100%;
+            height: 250px;
+            background-color: lightgrey;
+            display: flex;
+        }
+
+        #Div17 {
+            width: 100%;
+            height: 250px;
+            display: flex;
+            justify-content: space-between;
+            margin-top: 15px;
+        }
+
+        .div17 {
+            width: 15%;
+            height: 150px;
+            padding: 10px;
+            /*border: 5px solid silver;*/
+        }
+
+        .div17 img {
+            width: 40%;
+            height: 40px;
+        }
+
+        /* footer css end  */
+    </style>
+    <main>
+
+
+
+        <div class="container marketing">
+            <!-- body start ********** -->
+            <section>
+
+                <!-- Header -->
+                <header class="w3-container w3-center" style="padding:128px 16px; background-color: lightgray;background-image: url('https://i.pinimg.com/564x/1a/9f/43/1a9f43b145976d50e4534096f786195e.jpg');background-repeat: no-repeat;background-size: 100% 100%;background-attachment: fixed;">
+                    <!-- <header class="w3-container w3-red w3-center" style="padding:128px 16px; background-image: url('https://i.pinimg.com/564x/1a/9f/43/1a9f43b145976d50e4534096f786195e.jpg'); background-repeat: no-repeat;background-attachment: fixed; background-size: 100% 100%;"></header> -->
+                    <h1 class="w3-margin w3-jumbo" style="color: white;">FUSE LAGE</h1>
+                </header>
+
+                <!-- First Grid -->
+                <div class="w3-row-padding w3-padding-64 w3-container">
+                    <div class="w3-content">
+                        <div class="w3-twothird">
+                            <h1>FUSE LAGE</h1>
+                            <p>The fuselage, or body of the airplane, is a long hollow tube which holds all the pieces
+                                of an airplane together. The fuselage is hollow to reduce weight. As with most other
+                                parts of the airplane, the shape of the fuselage is normally determined by the mission
+                                of the aircraft. The fuselage, along with the passengers and cargo, contribute a
+                                significant portion of the weight of an aircraft. The centre of gravity of the aircraft
+                                is the average location of the weight and it is usually located inside the fuselage. In
+                                flight, the aircraft rotates around the centre of gravity because of torques generated
+                                by the elevator, rudder, and ailerons. The fuselage must be designed with enough
+                                strength to withstand these torques. Thus, the main functions of the fuselage are as
+                                follows: 
+                            <ul>
+                                <li>It shapes the aircraft and provides the necessary aerodynamics for the type of
+                                    flight to be performed.</li>
+                                <li>It serves as an assembly base for the different parts of the aircraft.</li>
+                            </ul>
+
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Second Grid -->
+                <div class="w3-row-padding w3-light-grey w3-padding-64 w3-container">
+                    <div class="w3-content">
+                        <div class="w3-third w3-center" style="margin-top: 10%;">
+                            <img src="/img/fuselage.jpeg" alt="fuselage" width="95%" height="100%">
+                        </div>
+
+                        <div class="w3-twothird">
+                            <h1>MATERIALS USED IN FUSELAGE</h1>
+                            <p>
+                                Aluminium and carbon fibre are two of the most common materials used in the construction
+                                of airplane fuselages. In the past, most commercial airplanes featured an aluminium
+                                fuselage. Since the advent of the Boeing 787 and the Airbus A350, however, many
+                                companies now feature a carbon fibre fuselage.
+                            <dl>
+                                <dt>Benefits of an Aluminum Fuselage</dt>
+                                <dd>Because it’s the most abundant metal on Earth, aluminium is inexpensive. The low
+                                    cost of this metal makes it a popular choice for fuselages among aerospace
+                                    manufacturing companies. Aerospace manufacturing companies can build and produce
+                                    airplanes at a lower cost when using aluminium for the fuselage.</dd>
+                                <dt>Benefits of a Carbon Fiber Fuselage</dt>
+                                <dd>One of the greatest benefits of carbon fibre fuselages is strength. Carbon fibre is
+                                    exceptionally strong — even more so than steel and aluminium. When individual
+                                    strands of carbon are woven together, they form an ultra-strong mesh-like material,
+                                    which is carbon fibre. Therefore, fuselages constructed of carbon fibre are able to
+                                    resist greater physical stress than those made of alternative materials.</dd>
+                            </dl>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- third Grid -->
+                <div class="w3-row-padding w3-padding-64 w3-container">
+                    <div class="w3-content">
+                        <div class="w3-twothird">
+                            <h1>
+                                Structural layout of a fuselage
+                            </h1>
+                            <h5 class="w3-padding-32">⦁ Space Frame (Truss)</h5>
+
+                            <p>In this fuselage configuration the force members of the truss provide the structural
+                                stiffness, and the aerodynamic covering provides the shape, but does not add much to the
+                                overall stiffness of the structure. One popular aircraft designed with a space frame
+                                fuselage is the iconic PA-18 Piper Super Cub.
+                            </p>
+                        </div>
+
+                        <div class="w3-third w3-center">
+                            <img src="/img/truss.jpeg" alt="truss" width="95%" height="100%">
+                        </div>
+                    </div>
+                </div>
+
+                <!-- forth Grid -->
+                <div class="w3-row-padding w3-light-grey w3-padding-64 w3-container">
+                    <div class="w3-content">
+                        <div class="w3-third ">
+                            <img src="/img/monocoque.png" alt="monocoque" width="95%" height="100%">
+                        </div>
+
+                        <div class="w3-twothird">
+                            <h5 class="w3-padding-32">⦁ Monocoque</h5>
+                            <p>The term monocoque structure refers to a structural arrangement where the skins take all
+                                of the loading and contribute to all of the structural rigidity of the design. One major
+                                downfall when designing a pure monocoque structure is the difficulty of incorporating
+                                concentrated loads into the structure such as engine mountings or the wing-fuselage
+                                interface. The distribution of these point loads into the skin structure becomes very
+                                difficult to efficiently achieve.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Fifth Grid -->
+                <div class="w3-row-padding w3-padding-64 w3-container">
+                    <div class="w3-content">
+                        <div class="w3-twothird">
+
+                            <h5 class="w3-padding-32">⦁ Semi-Monocoque</h5>
+                            <p>In a semi-monocoque structure both the skin and set of frames are load carrying and
+                                contribute to the overall stiffness of the structure. This design methodology was born
+                                out of the use of aluminium rather than steel as the primary structural material used in
+                                the design of aircraft structures. This design methodology was born out of the use of
+                                aluminium rather than steel as the primary structural material used in the design of
+                                aircraft structures.
+                            </p>
+                        </div>
+
+                        <div class="w3-third w3-center">
+                            <img src="/img/simemonocoque.png" alt="semimonocoque" width="95%" height="100%">
+                        </div>
+                    </div>
+                </div>
+
+
+
+                <script>
+                    // Used to toggle the menu on small screens when clicking on the menu button
+                    function myFunction() {
+                        var x = document.getElementById("navDemo");
+                        if (x.className.indexOf("w3-show") == -1) {
+                            x.className += " w3-show";
+                        } else {
+                            x.className = x.className.replace(" w3-show", "");
+                        }
+                    }
+                </script>
+            </section>
+
+            <!-- end body  -->
+
+            <!-- footer srat -->
+            <div id="main7">
+                <div id="Div17">
+                    <div class="div17">
+                        <img src="/img/favicon.jpg" alt="" style="border-radius: 50%;"> <br> <br>
+                        Mon - Sat 9:30 - 18:30 <br> <br>
+                        [251]25634586
+
+                    </div>
+                    <div class="div17">
+                        <h4><u>Wh</u>at we do</h4> <br>
+                        Aircraft information <br>
+                        Sustainability <br>
+                        Performance <br>
+                        Customer Insights <br>
+                        Organization <br>
+                        Advanced Analytics <br>
+                    </div>
+                    <div class="div17">
+                        <h4><u>Qu</u>ick Links</h4> <br>
+                        Seminar for improve your <br>
+                        business <br>
+                        profit & loss <br>
+                        March 21, 2018 <br>
+                    </div>
+                    <div class="div17">
+                        <h4><u>Co</u>ntact Us</h4> <br>
+                        22/121 Apple Street, Anna <br>
+                        Nagar, 10012, Chennai <br>
+                        <br>
+                        Phone: +123-456-7890 <br>
+                    </div>
+                    <div class="div17">
+                        <h4><u>Fol</u>llow Us</h4> <br>
+                        <div class="brand" style="font-size: 35px;">
+                            <a href="https://www.instagram.com/"><i class="fa-brands fa-instagram"></i></a>
+                            <a href="https://twitter.com/i/flow/login"> <i class="fa-brands fa-twitter"></i></a>
+                            <a
+                                href="https://in.linkedin.com/?src=go-pa&trk=sem-ga_campid=14650114791_asid=127961666580_crid=601257986854_kw=linkedin_d=c_tid=kwd-285981853_n=g_mt=p_geo=1007761_slid=&mcid=6844056167778418688&cid=&gclid=Cj0KCQjwsrWZBhC4ARIsAGGUJup8_m6th4h0YCYvERnxk_acB8P_p4cXn366NH3Ord93ZQhLJgErXbEaAgD7EALw_wcB&gclsrc=aw.ds"><i
+                                    class="fa-brands fa-linkedin"></i></a>
+                            <a href="https://www.facebook.com/"><i class="fa-brands fa-facebook"></i></a>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+
+
+
+</body>
+
+</html>

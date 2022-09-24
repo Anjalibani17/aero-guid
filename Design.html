@@ -1,0 +1,635 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aero Guide</title>
+    <link rel="stylesheet" href="bootstrap.bundle.js">
+    <link rel="stylesheet" href="/css/bootstrap-grid.min.css">
+    <link rel="stylesheet" href="/css/bootstrap-grid.rtl.min.css">
+    <link rel="stylesheet" href="/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/fontawesome/css/all.min.css">
+    <link rel="stylesheet" href="/fontawesome/css/brands.css">
+    <link rel="stylesheet" href="/fontawesome/css/solid.css">
+    <link rel="stylesheet" href="/fontawesome/css">
+    <link rel="stylesheet" href="/css/bootstrap-utilities.min.css">
+    <link rel="stylesheet" href="bootstrap.bundle.min.js">
+    <link rel="stylesheet" href="/css/bootstrap-reboot.min.css">
+    <link rel="stylesheet" href="/css/bootstrap-utilities.css">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="shortcut icon" href="/img/favicon.jpg" type="image/x-icon">
+</head>
+<style>
+    /* main {
+        background-color: whitesmoke;
+    } */
+
+    a:hover {
+        background-color: lightblue;
+        color: black;
+    }
+
+    /* 
+    header:hover {
+        background-color: lightgray;
+    }
+
+    p:hover {
+        background-color: lightgray;
+        border-radius: 2%;
+    } */
+
+    /* h2:hover {
+        background-color: lightgrey;
+    }
+
+    h1:hover {
+        background-color: lightgray;
+
+
+    } */
+</style>
+
+<body>
+
+    <header>
+        <div class="px-3 py-2 text-bg-dark">
+            <div class="container">
+                <div class="d-flex flex-wrap align-items-center justify-content-center justify-content-lg-start">
+                    <a href="/"
+                        class="d-flex align-items-center my-2 my-lg-0 me-lg-auto text-white text-decoration-none">
+
+                        <div class="logo" style="float: left;margin: 0;">
+                            <img src="/img/logo5.jpg" alt="" style="height:55px;border-radius: 50%;">
+                        </div>
+                    </a>
+
+
+                    <ul class="nav col-12 col-lg-auto my-2 justify-content-center my-md-0 text-small">
+
+                        <li>
+                            <a href="index.html" class="nav-link text-white">
+                                <svg class="bi d-block mx-auto mb-1" width="24" height="24">
+                                    <!-- <use xlink:href="#speedometer2" /> -->
+                                    <i class="fa-solid fa-house"></i>
+                                </svg>
+                                Home
+                            </a>
+                        </li>
+                        <li>
+                            <a href="Design.html" class="nav-link text-white">
+
+
+                                <svg class="bi d-block mx-auto mb-1" width="24" height="24">
+                                    <!-- <use xlink:href="#speedometer2" /> -->
+                                    <i class="fa-solid fa-plane"></i>
+                                </svg>
+                                Design
+                            </a>
+                        </li>
+                        <li>
+                            <a href="aircraftspart.html" class="nav-link text-white ">
+                                <svg class="bi d-block mx-auto mb-1" width="24" height="24">
+                                    <!-- <use xlink:href="#table" /> -->
+                                    <i class="fa-solid fa-plane-departure"></i>
+                                </svg>
+                                Aircraft's part
+                            </a>
+                        </li>
+                        <li>
+                            <a href="aircraftspart.html" class="nav-link text-white">
+                                <svg class="bi d-block mx-auto mb-1" width="24" height="24">
+                                    <!-- <use xlink:href="#grid" /> -->
+
+                                    <i class="fa-solid fa-jet-fighter-up"></i>
+                                </svg>
+                                Fighter planes
+                            </a>
+                        </li>
+                        <li>
+                            <a href="contactus.html" class="nav-link text-white">
+                                <svg class="bi d-block mx-auto mb-1" width="24" height="24">
+                                    <!-- <use xlink:href="#people-circle" /> -->
+                                    <i class="fa-solid fa-user"></i>
+                                </svg>
+                                Contact us
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="px-3 py-2 border-bottom mb-3">
+            <div class="container d-flex flex-wrap justify-content-center">
+                <form class="col-12 col-lg-auto mb-2 mb-lg-0 me-lg-auto" role="search">
+                    <input type="search" class="form-control" placeholder="Search..." aria-label="Search">
+                </form>
+
+                <div class="text-end">
+                    <button type="button" class="btn btn-light text-dark me-2">Login</button>
+                    <button type="button" class="btn btn-primary">Sign-up</button>
+                </div>
+            </div>
+        </div>
+    </header>
+    <div class="b-example-divider"></div>
+
+    <script src="../assets/dist/js/bootstrap.bundle.min.js"></script>
+    <style>
+        .bd-placeholder-img {
+            font-size: 1.125rem;
+            text-anchor: middle;
+            -webkit-user-select: none;
+            -moz-user-select: none;
+            user-select: none;
+        }
+
+        @media (min-width: 768px) {
+            .bd-placeholder-img-lg {
+                font-size: 3.5rem;
+            }
+        }
+
+        .b-example-divider {
+            height: 3rem;
+            background-color: rgba(0, 0, 0, .1);
+            border: solid rgba(0, 0, 0, .15);
+            border-width: 1px 0;
+            box-shadow: inset 0 .5em 1.5em rgba(0, 0, 0, .1), inset 0 .125em .5em rgba(0, 0, 0, .15);
+        }
+
+        .b-example-vr {
+            flex-shrink: 0;
+            width: 1.5rem;
+            height: 100vh;
+        }
+
+        .bi {
+            vertical-align: -.125em;
+            fill: currentColor;
+        }
+
+        .nav-scroller {
+            position: relative;
+            z-index: 2;
+            height: 2.75rem;
+            overflow-y: hidden;
+        }
+
+        .nav-scroller .nav {
+            display: flex;
+            flex-wrap: nowrap;
+            padding-bottom: 1rem;
+            margin-top: -1px;
+            overflow-x: auto;
+            text-align: center;
+            white-space: nowrap;
+            -webkit-overflow-scrolling: touch;
+        }
+    </style>
+
+    <script src="../assets/dist/js/bootstrap.bundle.min.js"></script>
+    <style>
+        .bd-placeholder-img {
+            font-size: 1.125rem;
+            text-anchor: middle;
+            -webkit-user-select: none;
+            -moz-user-select: none;
+            user-select: none;
+        }
+
+        @media (min-width: 768px) {
+            .bd-placeholder-img-lg {
+                font-size: 3.5rem;
+            }
+        }
+
+        .b-example-divider {
+            height: 3rem;
+            background-color: rgba(0, 0, 0, .1);
+            border: solid rgba(0, 0, 0, .15);
+            border-width: 1px 0;
+            box-shadow: inset 0 .5em 1.5em rgba(0, 0, 0, .1), inset 0 .125em .5em rgba(0, 0, 0, .15);
+        }
+
+        .b-example-vr {
+            flex-shrink: 0;
+            width: 1.5rem;
+            height: 100vh;
+        }
+
+        .bi {
+            vertical-align: -.125em;
+            fill: currentColor;
+        }
+
+        .nav-scroller {
+            position: relative;
+            z-index: 2;
+            height: 2.75rem;
+            overflow-y: hidden;
+        }
+
+        .nav-scroller .nav {
+            display: flex;
+            flex-wrap: nowrap;
+            padding-bottom: 1rem;
+            margin-top: -1px;
+            overflow-x: auto;
+            text-align: center;
+            white-space: nowrap;
+            -webkit-overflow-scrolling: touch;
+        }
+
+        /* footer css**** */
+        #main7 {
+            width: 100%;
+            height: 250px;
+            background-color: lightgrey;
+            display: flex;
+        }
+
+        #Div17 {
+            width: 100%;
+            height: 250px;
+            display: flex;
+            justify-content: space-between;
+            margin-top: 15px;
+        }
+
+        .div17 {
+            width: 15%;
+            height: 150px;
+            padding: 10px;
+            /*border: 5px solid silver;*/
+        }
+
+        .div17 img {
+            width: 40%;
+            height: 40px;
+        }
+
+        /* footer css end  */
+    </style>
+    <main>
+
+
+
+        <div class="container marketing">
+            <!-- body start ********** -->
+
+            <!-- end body  -->
+            <section>
+                <!-- Header -->
+                <header class="w3-container w3-center" style="
+                    padding: 128px 16px;
+                    background-image: url('https://i.pinimg.com/736x/89/5c/c2/895cc298d4fafd5aa989bf01bb87cdf1.jpg');
+                    background-repeat: no-repeat;
+                    background-attachment: fixed;
+                    background-size: 100% 100%;
+                  ">
+                    <h1 class="w3-margin w3-jumbo" style="color: black">
+                        TYPES OF AIRCRAFT
+                    </h1>
+                </header>
+
+                <!-- First Grid -->
+                <div class="w3-row-padding w3-padding-64 w3-container">
+                    <div class="w3-content">
+                        <div class="w3-onethird">
+                            <h1>CLASSIFICATION OF AIRCRAFT</h1>
+                            <p>
+                                Before we get into knowing and studying different types of
+                                aircrafts, let us understand how are these aircrafts classified.
+                                In most common terms, there are two types of classifications for
+                                aircrafts. One is lighter than air aircrafts, known as aerostats,
+                                and the other is heavier than air aircrafts, called aerodynes.
+                            </p>
+                            <p>
+                                Aerostats (Lighter Than Air): Aerostats or lighter than air
+                                aircrafts are very more lightweight in weight. These types of
+                                light aircraft generally use buoyancy like ships, which helps them
+                                float in the air. Low-density gas such as hydrogen, helium, or hot
+                                air balloons is used to fill in the aircraft. This low-density gas
+                                is lighter than air, hence the name. The most common types of
+                                aerostats known to us are hot air balloons and sky lanterns.
+                            </p>
+                            <p>
+                                Aerodynes (Heavier Than Air): Alternatively, the other aircraft,
+                                heavier than air or aerodynes, as we understand, is much higher in
+                                weight and size. They push the gas or air downwards, which
+                                reaction helps to make aircraft upwards. Since these are dynamic
+                                through movements in the air, they are called aerodynes. This
+                                dynamic lift through the air can be caused mostly through
+                                mechanisms, as you must have already known.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Seconf Grid -->
+                <div class="w3-row-padding w3-padding-64 w3-container">
+                    <div class="w3-content">
+                        <div class="w3-onethird">
+                            <h1>TYPES OF AIRCRAFT CLASSIFICATION</h1>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Second Grid -->
+                <div class="w3-row-padding w3-light-grey w3-padding-64 w3-container">
+                    <div class="w3-content">
+                        <div class="w3-third w3-center" style="margin-top: 5%">
+                            <img src="/img/amphious.jpeg" alt="fuselage" width="100%" height="300%" />
+                        </div>
+
+                        <div class="w3-twothird">
+                            <h2>AMPHIBIOUS</h2>
+                            <p>
+                                Amphibious aircraft, otherwise also popularly known as an
+                                amphibian, is a multipurpose aircraft which can work, take off and
+                                land both water and ground. They are used as both seaplanes or
+                                flying boats, or also airplanes. In this aircraft, the engine is
+                                either placed in front or even above the wing, that is most
+                                commonly found in floatplanes. On the other hand, modern and other
+                                amphibious aircraft have engine and propeller placed above the
+                                wings. The size of amphibians differs as per the purpose; there
+                                are military amphibians, leisure purpose seaplanes, and civil
+                                amphibious aircraft.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Third Grid -->
+                <div class="w3-row-padding w3-light-grey w3-padding-64 w3-container">
+                    <div class="w3-content">
+                        <div class="w3-third w3-center" style="margin-top: 5%">
+                            <img src="/img/Helicopter.jpeg" alt="fuselage" width="100%" height="300%" />
+                        </div>
+
+                        <div class="w3-twothird">
+                            <h2>HELICOPTER</h2>
+                            <p>
+                                Helicopter aircraft, also known as a chopper, is commonly known to
+                                most of us and belongs to rotorcrafts. Horizontally spinning
+                                rotors help and aid the helicopter to lift and thrust. These
+                                aircraft have the advantage of taking vertically, horizontally,
+                                and fly both backward and forward or laterally. Unlike the other
+                                fixed-wing aircraft, these benefit from taking off and land at
+                                several places and flying even in congested areas. The engine
+                                depends on the size, purpose, and function of the chopper. Today,
+                                the helicopter is mostly used for military purposes, cargo,
+                                construction, rescue, tourism, aerial observation, and the
+                                government. The size of the chopper hence mostly depends on the
+                                usage.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Fourth Grid -->
+                <div class="w3-row-padding w3-light-grey w3-padding-64 w3-container">
+                    <div class="w3-content">
+                        <div class="w3-third w3-center" style="margin-top: 5%">
+                            <img src="/img/Gliders.jpeg" alt="fuselage" width="100%" height="300%" />
+                        </div>
+
+                        <div class="w3-twothird">
+                            <h2>BIPLANES</h2>
+                            <p>
+                                Biplanes come under the category of fixed-wing aircraft. In this
+                                category, two wings come one above each other on both sides. This
+                                kind of plane is among the first aircraft to discover fixed-wing
+                                planes. The biplanes have lower weight but with excellent
+                                stiffness and efficiency. The biplanes are fitted with
+                                reciprocating engines. Only two adults, in most cases, can do
+                                these. In most cases, biplanes are spotted and used for army and
+                                military purposes of specific countries. These aircraft were among
+                                the most commonly used ones during world war times.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- FIFTH Grid -->
+                <div class="w3-row-padding w3-light-grey w3-padding-64 w3-container">
+                    <div class="w3-content">
+                        <div class="w3-third w3-center" style="margin-top: 5%">
+                            <img src="/img/Balloons.jpeg" alt="fuselage" width="100%" height="50%" />
+                        </div>
+
+                        <div class="w3-twothird">
+                            <h2>BALLONS</h2>
+                            <p>
+                                The balloon-type aircraft are standard aircrafts most of us are
+                                aware of and are mostly spotted during tourist activities. It
+                                comes under a kind of aircraft that floats in the sky and is much
+                                different from other airships and aircraft categories. While most
+                                confuse them with airships, the balloons are distinct in that they
+                                do not possess any engine and cannot change their direction,
+                                except for up and down. The balloon’s top is called an envelope,
+                                and the bottom part is a basket where people can sit. The most
+                                common ones in the category of balloons are hot air balloons.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- sixth Grid -->
+                <div class="w3-row-padding w3-light-grey w3-padding-64 w3-container">
+                    <div class="w3-content">
+                        <div class="w3-third w3-center" style="margin-top: 5%">
+                            <img src="/img/Gliders.jpeg" alt="fuselage" width="100%" height="300%" />
+                        </div>
+
+                        <div class="w3-twothird">
+                            <h2>GLIDERS</h2>
+                            <p>
+                                Gliders come again under the category of fixed-wing aircraft. The
+                                types of gliders aircraft are used through air reaction against
+                                lifting surfaces and mostly do not use any engine. Although small
+                                engines may be used as required (in cases like a motor glider),
+                                most glider aircraft are efficient for self-take without engines.
+                                A wheeled undercarriage helps in take-off or landing. In the past,
+                                gliders are used for military purposes and wars; however,
+                                nowadays, we even see them in tourist activities and entertainment
+                                or leisure. The most common types in this category include hand
+                                gliders and paragliders. Most gliders are small in size and can
+                                fit a maximum of two people.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Seventh Grid -->
+                <div class="w3-row-padding w3-light-grey w3-padding-64 w3-container">
+                    <div class="w3-content">
+                        <div class="w3-third w3-center" style="margin-top: 5%">
+                            <img src="/img/Gyroplanes.jpeg" alt="fuselage" width="100%" height="300%" />
+                        </div>
+
+                        <div class="w3-twothird">
+                            <h2>GYROPLANES</h2>
+                            <p>
+                                Gyroplanes, also known as autogyro or gyrocopter, is a rotorcraft
+                                aircraft category that uses rotor machines to lift. They are
+                                similar to helicopters in appearance, although a bit narrow, and
+                                have an engine-driven propeller. The air flows help the gyroplanes
+                                lift upwards, and the rotor self-propels as per the way air flows
+                                through it. While gyroplanes or autogyros are mostly used for
+                                military and war purposes during the 20th century, nowadays, they
+                                are spotted in the Olympics and police departments at some states.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- EIGHT Grid -->
+                <div class="w3-row-padding w3-light-grey w3-padding-64 w3-container">
+                    <div class="w3-content">
+                        <div class="w3-third w3-center" style="margin-top: 5%">
+                            <img src="/img/Parachutes.jpeg" alt="fuselage" width="100%" height="300%" />
+                        </div>
+
+                        <div class="w3-twothird">
+                            <h2>PARACHUTES</h2>
+                            <p>
+                                Parachutes are the most common types we often hear and see. They
+                                are slow-moving air flowing craft that helps move through,
+                                creating drag to land. They are made through lightweight yet
+                                stable and fitting fabric such as nylon or silk. Most parachutes
+                                may be in the shapes of round, dome, or inverted dome. Although
+                                most parachutes are spotted during leisure activities and
+                                entertainment, they are also used and deployed by state and
+                                operations during expeditions to ice areas such as polar ends.
+                                Only one or two maximum can fit in one parachute.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- ninth Grid -->
+                <div class="w3-row-padding w3-light-grey w3-padding-64 w3-container">
+                    <div class="w3-content">
+                        <div class="w3-third w3-center" style="margin-top: 5%">
+                            <img src="/img/Business-Jets.jpeg" alt="fuselage" width="100%" height="300%" />
+                        </div>
+
+                        <div class="w3-twothird">
+                            <h2>BUSSINESS JETS</h2>
+                            <p>
+                                Business or private jet aircraft are known to be among the
+                                luxurious or unique aircraft to transport and fly a small group of
+                                people, even individuals. While they are costly due to their
+                                design, plush appearance, and very sophisticated looks, the
+                                business jets are used by different classes of people – from
+                                government officials to armed forces for special operations to
+                                companies and private ownership. While the speed, engine, and
+                                other manufacturing are similar to airplanes, the size differs
+                                from lightweight or small jets to mid-sized ones to long business
+                                jets. The heavy and long jets can accommodate 16 to 18 people,
+                                whereas the mid-size (depending on the capacity) can accommodate
+                                up to 12 or 10 people. The smaller types of business aircraft are
+                                only for four to six individuals.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- tenth Grid -->
+                <div class="w3-row-padding w3-light-grey w3-padding-64 w3-container">
+                    <div class="w3-content">
+                        <div class="w3-third w3-center" style="margin-top: 5%">
+                            <img src="/img/tiltrotor.jpeg" alt="fuselage" width="100%" height="300%" />
+                        </div>
+
+                        <div class="w3-twothird">
+                            <h2>TILTROTORS</h2>
+                            <p>
+                                Tiltrotors use powered rotors for propulsion and to generate lift.
+                                These powered rotors, also called proprotors, are added to
+                                rotating shafts of a fixed-wing. These use transverse rotor design
+                                and combines the vertical lift capability of a helicopter. The
+                                rotors, similar to the chopper, helps lift this aircraft. However,
+                                the propulsion is much more efficient and can avoid retreating
+                                blade stall, commonly seen in choppers. The speed and range are
+                                heavier and higher than a normal helicopter and almost near a
+                                fixed-wing aircraft. The altitude capability of tiltrotors is
+                                higher than helicopters.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <script>
+                    // Used to toggle the menu on small screens when clicking on the menu button
+                    function myFunction() {
+                        var x = document.getElementById("navDemo");
+                        if (x.className.indexOf("w3-show") == -1) {
+                            x.className += " w3-show";
+                        } else {
+                            x.className = x.className.replace(" w3-show", "");
+                        }
+                    }
+                </script>
+            </section>
+
+            <!-- footer srat -->
+            <div id="main7">
+                <div id="Div17">
+                    <div class="div17">
+                        <img src="/img/favicon.jpg" alt="" style="border-radius: 50%;"> <br> <br>
+                        Mon - Sat 9:30 - 18:30 <br> <br>
+                        [251]25634586
+
+                    </div>
+                    <div class="div17">
+                        <h4><u>Wh</u>at we do</h4> <br>
+                        Aircraft information <br>
+                        Sustainability <br>
+                        Performance <br>
+                        Customer Insights <br>
+                        Organization <br>
+                        Advanced Analytics <br>
+                    </div>
+                    <div class="div17">
+                        <h4><u>Qu</u>ick Links</h4> <br>
+                        Seminar for improve your <br>
+                        business <br>
+                        profit & loss <br>
+                        March 21, 2018 <br>
+                    </div>
+                    <div class="div17">
+                        <h4><u>Co</u>ntact Us</h4> <br>
+                        22/121 Apple Street, Anna <br>
+                        Nagar, 10012, Chennai <br>
+                        <br>
+                        Phone: +123-456-7890 <br>
+                    </div>
+                    <div class="div17">
+                        <h4><u>Fol</u>llow Us</h4> <br>
+                        <div class="brand" style="font-size: 35px;">
+                            <a href="https://www.instagram.com/"><i class="fa-brands fa-instagram"></i></a>
+                            <a href="https://twitter.com/i/flow/login"> <i class="fa-brands fa-twitter"></i></a>
+                            <a
+                                href="https://in.linkedin.com/?src=go-pa&trk=sem-ga_campid=14650114791_asid=127961666580_crid=601257986854_kw=linkedin_d=c_tid=kwd-285981853_n=g_mt=p_geo=1007761_slid=&mcid=6844056167778418688&cid=&gclid=Cj0KCQjwsrWZBhC4ARIsAGGUJup8_m6th4h0YCYvERnxk_acB8P_p4cXn366NH3Ord93ZQhLJgErXbEaAgD7EALw_wcB&gclsrc=aw.ds"><i
+                                    class="fa-brands fa-linkedin"></i></a>
+                            <a href="https://www.facebook.com/"><i class="fa-brands fa-facebook"></i></a>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+
+
+
+</body>
+
+</html>

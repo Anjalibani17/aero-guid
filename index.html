@@ -1,0 +1,431 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aero Guide</title>
+    <link rel="stylesheet" href="bootstrap.bundle.js">
+    <link rel="stylesheet" href="/css/bootstrap-grid.min.css">
+    <link rel="stylesheet" href="/css/bootstrap-grid.rtl.min.css">
+    <link rel="stylesheet" href="/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/fontawesome/css/all.min.css">
+    <link rel="stylesheet" href="/fontawesome/css/brands.css">
+    <link rel="stylesheet" href="/fontawesome/css/solid.css">
+    <link rel="stylesheet" href="/fontawesome/css">
+    <link rel="stylesheet" href="/css/bootstrap-utilities.min.css">
+    <link rel="stylesheet" href="bootstrap.bundle.min.js">
+    <link rel="stylesheet" href="/css/bootstrap-reboot.min.css">
+    <link rel="stylesheet" href="/css/bootstrap-utilities.css">
+    <link rel="shortcut icon" href="/img/favicon.jpg" type="image/x-icon">
+</head>
+<style>
+    main {
+        background-color: whitesmoke;
+    }
+
+    a:hover {
+        background-color: lightblue;
+        color: black;
+    }
+
+    header:hover {
+        background-color: lightgray;
+    }
+
+    p:hover {
+        background-color: lightgray;
+        border-radius: 2%;
+    }
+
+    h2:hover {
+        background-color: lightgrey;
+    }
+
+    h1:hover {
+        background-color: lightgray;
+
+
+    }
+</style>
+
+<body>
+
+    <header>
+        <div class="px-3 py-2 text-bg-dark">
+            <div class="container">
+                <div class="d-flex flex-wrap align-items-center justify-content-center justify-content-lg-start">
+                    <a href="/"
+                        class="d-flex align-items-center my-2 my-lg-0 me-lg-auto text-white text-decoration-none">
+
+                        <div class="logo" style="float: left;margin: 0;">
+                            <img src="/img/logo5.jpg" alt="" style="height:55px;border-radius: 50%;">
+                        </div>
+                    </a>
+
+
+                    <ul class="nav col-12 col-lg-auto my-2 justify-content-center my-md-0 text-small">
+
+                        <li>
+                            <a href="/js/index.html" class="nav-link text-white">
+                                <svg class="bi d-block mx-auto mb-1" width="24" height="24">
+                                    <!-- <use xlink:href="#speedometer2" /> -->
+                                    <i class="fa-solid fa-house"></i>
+                                </svg>
+                                Home
+                            </a>
+                        </li>
+                        <li>
+                            <a href="Design.html" class="nav-link text-white">
+
+
+                                <svg class="bi d-block mx-auto mb-1" width="24" height="24">
+                                    <!-- <use xlink:href="#speedometer2" /> -->
+                                    <i class="fa-solid fa-plane"></i>
+                                </svg>
+                                Design
+                            </a>
+                        </li>
+                        <li>
+                            <a href="aircraftspart.html" class="nav-link text-white ">
+                                <svg class="bi d-block mx-auto mb-1" width="24" height="24">
+                                    <!-- <use xlink:href="#table" /> -->
+                                    <i class="fa-solid fa-plane-departure"></i>
+                                </svg>
+                                Aircraft's part
+                            </a>
+                        </li>
+                        <li>
+                            <a href="fighterplanes.html" class="nav-link text-white">
+                                <svg class="bi d-block mx-auto mb-1" width="24" height="24">
+                                    <!-- <use xlink:href="#grid" /> -->
+
+                                    <i class="fa-solid fa-jet-fighter-up"></i>
+                                </svg>
+                                Fighter planes
+                            </a>
+                        </li>
+                        <li>
+                            <a href="contactus.html" class="nav-link text-white">
+                                <svg class="bi d-block mx-auto mb-1" width="24" height="24">
+                                    <!-- <use xlink:href="#people-circle" /> -->
+                                    <i class="fa-solid fa-user"></i>
+                                </svg>
+                                Contact us
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="px-3 py-2 border-bottom mb-3">
+            <div class="container d-flex flex-wrap justify-content-center">
+                <form class="col-12 col-lg-auto mb-2 mb-lg-0 me-lg-auto" role="search">
+                    <input type="search" class="form-control" placeholder="Search..." aria-label="Search">
+                </form>
+
+                <div class="text-end">
+                    <button type="button" class="btn btn-light text-dark me-2">Login</button>
+                    <button type="button" class="btn btn-primary">Sign-up</button>
+                </div>
+            </div>
+        </div>
+    </header>
+    <div class="b-example-divider"></div>
+    </main>
+    <!--*************************** nav bar******************************** -->
+
+
+    <script src="../assets/dist/js/bootstrap.bundle.min.js"></script>
+    <style>
+        .bd-placeholder-img {
+            font-size: 1.125rem;
+            text-anchor: middle;
+            -webkit-user-select: none;
+            -moz-user-select: none;
+            user-select: none;
+        }
+
+        @media (min-width: 768px) {
+            .bd-placeholder-img-lg {
+                font-size: 3.5rem;
+            }
+        }
+
+        .b-example-divider {
+            height: 3rem;
+            background-color: rgba(0, 0, 0, .1);
+            border: solid rgba(0, 0, 0, .15);
+            border-width: 1px 0;
+            box-shadow: inset 0 .5em 1.5em rgba(0, 0, 0, .1), inset 0 .125em .5em rgba(0, 0, 0, .15);
+        }
+
+        .b-example-vr {
+            flex-shrink: 0;
+            width: 1.5rem;
+            height: 100vh;
+        }
+
+        .bi {
+            vertical-align: -.125em;
+            fill: currentColor;
+        }
+
+        .nav-scroller {
+            position: relative;
+            z-index: 2;
+            height: 2.75rem;
+            overflow-y: hidden;
+        }
+
+        .nav-scroller .nav {
+            display: flex;
+            flex-wrap: nowrap;
+            padding-bottom: 1rem;
+            margin-top: -1px;
+            overflow-x: auto;
+            text-align: center;
+            white-space: nowrap;
+            -webkit-overflow-scrolling: touch;
+        }
+
+        /* footer css**** */
+        #main7 {
+            width: 100%;
+            height: 250px;
+            background-color: lightgrey;
+            display: flex;
+        }
+
+        #Div17 {
+            width: 100%;
+            height: 250px;
+            display: flex;
+            justify-content: space-between;
+            margin-top: 15px;
+        }
+
+        .div17 {
+            width: 15%;
+            height: 150px;
+            padding: 10px;
+            /*border: 5px solid silver;*/
+        }
+
+        .div17 img {
+            width: 40%;
+            height: 40px;
+        }
+
+        /* footer css end  */
+    </style>
+    <main>
+
+
+
+        <div class="container marketing">
+
+
+
+
+            <!-- START THE FEATURETTES -->
+
+            <hr class="featurette-divider">
+
+            <div class="row featurette">
+                <div class="col-md-7">
+                    <h2 class="featurette-heading fw-normal lh-1">Fighter Aircraft <span class="text-muted">It’ll blow
+                            your mind.</span></h2>
+                    <p class="lead">"fighter aircraft, aircraft designed primarily to secure control of essential
+                        airspace by destroying enemy aircraft in combat"</p>
+                    <p><a class="btn btn-secondary" href="fighterplanes.html">View details &raquo;</a></p>
+                </div>
+                <div class="col-md-5">
+                    <!-- <svg class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500"
+                        height="500" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 500x500"
+                        preserveAspectRatio="xMidYMid slice" focusable="false">
+                        <title>Placeholder</title>
+                        <rect width="100%" height="100%" fill="#eee" /><text x="50%" y="50%" fill="#aaa"
+                            dy=".3em">500x500</text>
+                    </svg> -->
+                    <div class="content" style="border: 10px black ;">
+                        <img src="/img/fighter2.jpg" alt="" style="height: 250px;border-radius: 5%;">
+                    </div>
+
+                </div>
+            </div>
+
+            <hr class="featurette-divider">
+
+            <div class="row featurette">
+                <div class="col-md-7 order-md-2">
+                    <h2 class="featurette-heading fw-normal lh-1"><span class="text-muted">parts of
+                            aircrafts.</span>There are main five components of an aircrafts </h2>
+                    <p class="lead">Aircraft is made of different parts with the use of different material </p>
+                    <p><a class="btn btn-secondary" href="aircraftspart.html">View details &raquo;</a></p>
+                </div>
+                <div class="col-md-5 order-md-1">
+                    <!-- <svg class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500"
+                        height="500" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 500x500"
+                        preserveAspectRatio="xMidYMid slice" focusable="false">
+                        <title>Placeholder</title>
+                        <rect width="100%" height="100%" fill="#eee" /><text x="50%" y="50%" fill="#aaa"
+                            dy=".3em">500x500</text>
+                    </svg> -->
+                    <div class="content">
+                        <img src="/img/part.jpg" alt="" height="250px" style="border-radius: 5%;">
+                    </div>
+
+                </div>
+            </div>
+
+            <hr class="featurette-divider">
+
+            <div class="row featurette">
+                <div class="col-md-7">
+                    <h2 class="featurette-heading fw-normal lh-1"> <span class="text-muted">AIRCRAFT</span></h2>
+                    <p class="lead">What are air crafts and which are types of aircrafts, you know? Most of us will only
+                        answer the common ones – airplanes and helicopters. Well, yes, you are not wrong.</p>
+                    <p><a class="btn btn-secondary" href="Design.html">View details &raquo;</a></p>
+                </div>
+                <div class="col-md-5">
+                    <!-- <svg class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500"
+                        height="500" xmlns="" role="img" aria-label="Placeholder: 500x500"
+                        preserveAspectRatio="xMidYMid slice" focusable="false">
+                        <title>Placeholder</title>
+                        <rect width="100%" height="100%" fill="#eee" /><text x="50%" y="50%" fill="#aaa"
+                            dy=".3em">500x500</text>
+                    </svg> -->
+                    <img src="/img/air.jpg" alt="" height="250px" style="border-radius: 5%;">
+
+                </div>
+            </div>
+
+            <hr class="featurette-divider">
+
+            <!-- /END THE FEATURETTES -->
+
+        </div><!-- /.container -->
+
+
+        <!-- FOOTER -->
+        <footer class="container">
+            <p class="float-end"><a href="#">Back to top</a></p>
+            <p>&copy; 2017–2022 Company, Inc. &middot; <a href="#">Privacy</a> &middot; <a href="#">Terms</a></p>
+        </footer>
+    </main>
+
+    <script src="../assets/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- codeend****************** -->
+    <!-- sign up page *****************-->
+    <div class="container col-xl-10 col-xxl-8 px-4 py-5">
+        <div class="row align-items-center g-lg-5 py-5">
+            <div class="col-lg-7 text-center text-lg-start">
+                <h1 class="display-4 fw-bold lh-1 mb-3">Welcome To Aero world</h1>
+                <p class="col-lg-10 fs-4">Signup pages are a way for organizations to attract new leads or sales. It’s
+                    usually the first time a potential customer will interact with your brand, so it’s critical that you
+                    impress and delight new signups.</p>
+            </div>
+            <div class="col-md-10 mx-auto col-lg-5">
+                <form class="p-4 p-md-5 border rounded-3 bg-light">
+                    <div class="form-floating mb-3">
+                        <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com">
+                        <label for="floatingInput">Email address</label>
+                    </div>
+                    <div class="form-floating mb-3">
+                        <input type="password" class="form-control" id="floatingPassword" placeholder="Password">
+                        <label for="floatingPassword">Password</label>
+                    </div>
+                    <div class="checkbox mb-3">
+                        <label>
+                            <input type="checkbox" value="remember-me"> Remember me
+                        </label>
+                    </div>
+                    <button class="w-100 btn btn-lg btn-primary" type="submit">Sign up</button>
+                    <hr class="my-4">
+                    <small class="text-muted">By clicking Sign up, you agree to the terms of use.</small>
+                </form>
+            </div>
+        </div>
+    </div>
+    <!-- sign up ended******** -->
+
+
+    <!-- <script type="text/javascript">
+        (async () => {
+            const where = encodeURIComponent(JSON.stringify({
+                "Model": {
+                    "$exists": true
+                }
+            }));
+            const response = await fetch(
+                `https://parseapi.back4app.com/classes/ListOfAircraftModel?count=1&limit=25&order=Model&where=${where}`,
+                {
+                    headers: {
+                        'X-Parse-Application-Id': 'Oar7SB5iSK2TidvDtqTSq1mRJIsCeYmUMVCDfGK3', // This is the fake app's application id
+                        'X-Parse-Master-Key': 'mrN5rCCbUXqkon493H3xCOofdUN23f99ROR9U1oz', // This is the fake app's readonly master key
+                    }
+                }
+            );
+            const data = await response.json(); // Here you have the data that you need
+            console.log(JSON.stringify(data, null, 2));
+            document.getElementById("json").innerHTML = JSON.stringify(data, undefined, 2);
+            
+        })();
+    </script>
+    <pre id="json"></pre> -->
+
+    <!-- footer ************ -->
+    <div id="main7">
+        <div id="Div17">
+            <div class="div17">
+                <img src="/img/favicon.jpg" alt="" style="border-radius: 50%;"> <br> <br>
+                Mon - Sat 9:30 - 18:30 <br> <br>
+                [251]25634586
+
+            </div>
+            <div class="div17">
+                <h4><u>Wh</u>at we do</h4> <br>
+                Aircraft information <br>
+                Sustainability <br>
+                Performance <br>
+                Customer Insights <br>
+                Organization <br>
+                Advanced Analytics <br>
+            </div>
+            <div class="div17">
+                <h4><u>Qu</u>ick Links</h4> <br>
+                Seminar for improve your <br>
+                business <br>
+                profit & loss <br>
+                March 21, 2018 <br>
+            </div>
+            <div class="div17">
+                <h4><u>Co</u>ntact Us</h4> <br>
+                22/121 Apple Street, Anna <br>
+                Nagar, 10012, Chennai <br>
+                <br>
+                Phone: +123-456-7890 <br>
+            </div>
+            <div class="div17">
+                <h4><u>Fol</u>llow Us</h4> <br>
+                <div class="brand" style="font-size: 35px;">
+                    <a href="https://www.instagram.com/"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="https://twitter.com/i/flow/login"> <i class="fa-brands fa-twitter"></i></a>
+                    <a
+                        href="https://in.linkedin.com/?src=go-pa&trk=sem-ga_campid=14650114791_asid=127961666580_crid=601257986854_kw=linkedin_d=c_tid=kwd-285981853_n=g_mt=p_geo=1007761_slid=&mcid=6844056167778418688&cid=&gclid=Cj0KCQjwsrWZBhC4ARIsAGGUJup8_m6th4h0YCYvERnxk_acB8P_p4cXn366NH3Ord93ZQhLJgErXbEaAgD7EALw_wcB&gclsrc=aw.ds"><i
+                            class="fa-brands fa-linkedin"></i></a>
+                    <a href="https://www.facebook.com/"><i class="fa-brands fa-facebook"></i></a>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+</body>
+
+</html>
